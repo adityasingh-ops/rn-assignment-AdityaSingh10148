@@ -91,7 +91,7 @@ Then choose your platform:
 
 ## Author
 
-[Your Name]
+Adity Singh
 
 ## License
 
