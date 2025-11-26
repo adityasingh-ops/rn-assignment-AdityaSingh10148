@@ -1,50 +1,98 @@
-# Welcome to your Expo app 👋
+# Counter App with Animations
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Assignment C - React Native Class Assignment
 
-## Get started
+A simple React Native counter application with smooth animations built using Expo.
 
-1. Install dependencies
+## Features
 
+- ✨ **Animated Counter Display**: Number scales smoothly when incremented or decremented
+- ➕ **Increment Button**: Increases the counter value by 1
+- ➖ **Decrement Button**: Decreases the counter value by 1
+- 🔄 **Reset Button**: Resets counter back to 0
+- 🎨 **Clean UI**: Modern design with color-coded buttons
+
+## Technologies Used
+
+- **React Native** 0.81.5
+- **Expo** SDK 54
+- **React** 19.1.0
+- **Animated API** for smooth scaling animations
+
+## Project Structure
+
+```
+counter-app/
+├── App.js                          # Main app entry point
+├── src/
+│   ├── components/
+│   │   └── CounterDisplay.js       # Animated counter display component
+│   └── screens/
+│       └── Home.js                 # Home screen with counter logic
+├── package.json
+└── README.md
+```
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/rn-assignment-YOUR_NAME.git
+   cd rn-assignment-YOUR_NAME
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
+## Running the App
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+Start the development server:
 ```bash
-npm run reset-project
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Then choose your platform:
+- Press `i` to open in iOS Simulator
+- Press `a` to open in Android Emulator  
+- Scan the QR code with Expo Go app on your physical device
 
-## Learn more
+## How It Works
 
-To learn more about developing your project with Expo, look at the following resources:
+### CounterDisplay Component (`src/components/CounterDisplay.js`)
+- Uses React's `Animated.Value` to create smooth scale animations
+- When the count changes, the number scales from 1 to 1.3 and back to 1
+- Animation duration: 150ms for each phase (300ms total)
+- Uses `useNativeDriver: true` for optimal performance
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Home Screen (`src/screens/Home.js`)
+- Manages counter state using `useState` hook
+- Three interactive buttons:
+  - **Decrement (-)**: Red button, decreases count
+  - **Reset**: Gray button, sets count to 0
+  - **Increment (+)**: Green button, increases count
+- Centered layout with modern styling and shadows
 
-## Join the community
+## Assignment Requirements Met
 
-Join our community of developers creating universal apps.
+✅ Display a numeric counter  
+✅ Increment and decrement buttons  
+✅ Animate number when it changes (scale effect)  
+✅ Uses React Native Animated API  
+✅ Clean folder structure with components and screens  
+✅ Ready to run with `npx expo start`
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Assignment Details
+
+**Assignment C**: Display a numeric counter with increment/decrement buttons. Animate the number (scale or fade) when it changes using React Native Animated or LayoutAnimation.
+
+**Submission Format**: `rn-assignment-<your-name>`
+
+## Author
+
+[Your Name]
+
+## License
+
+This project is created for educational purposes as part of a React Native class assignment.
