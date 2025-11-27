@@ -91,7 +91,7 @@ Then choose your platform:
 
 ## Author
 
-Adity Singh
+Aditya Singh
 
 ## License
 
