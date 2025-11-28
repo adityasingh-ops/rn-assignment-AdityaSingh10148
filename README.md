@@ -82,12 +82,12 @@ Then choose your platform:
 ✅ Uses React Native Animated API  
 ✅ Clean folder structure with components and screens  
 ✅ Ready to run with `npx expo start`
-
+   
 ## Assignment Details
 
 **Assignment C**: Display a numeric counter with increment/decrement buttons. Animate the number (scale or fade) when it changes using React Native Animated or LayoutAnimation.
 
-**Submission Format**: `rn-assignment-<your-name>`
+**Submission Format**: `rn-assignment-aditya10148`
 
 ## Author
 
