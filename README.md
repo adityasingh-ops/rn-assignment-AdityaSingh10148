@@ -87,7 +87,7 @@ Then choose your platform:
 
 **Assignment C**: Display a numeric counter with increment/decrement buttons. Animate the number (scale or fade) when it changes using React Native Animated or LayoutAnimation.
 
-**Submission Format**: `rn-assignment-aditya10148`
+**Submission Format**: `rn-assignment-AdityaSingh10148`
 
 ## Author
 
