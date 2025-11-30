@@ -1,8 +1,12 @@
-# Counter App with Animations
+# 🔢 Counter App with Animations
 
 ## Assignment C - React Native Class Assignment
 
-A simple React Native counter application with smooth animations built using Expo.
+A beautiful and interactive React Native counter application featuring smooth scale animations built with Expo. This app demonstrates the power of React Native's Animated API to create fluid user experiences.
+
+![React Native](https://img.shields.io/badge/React_Native-0.81.5-61DAFB?style=flat&logo=react)
+![Expo](https://img.shields.io/badge/Expo-SDK_54-000020?style=flat&logo=expo)
+![License](https://img.shields.io/badge/License-Educational-green)
 
 ## Features
 
@@ -37,8 +41,8 @@ counter-app/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/rn-assignment-YOUR_NAME.git
-   cd rn-assignment-YOUR_NAME
+   git clone https://github.com/adityasingh-ops/rn-assignment-AdityaSingh10148.git
+   cd rn-assignment-AdityaSingh10148
    ```
 
 2. Install dependencies:
@@ -74,6 +78,14 @@ Then choose your platform:
   - **Increment (+)**: Green button, increases count
 - Centered layout with modern styling and shadows
 
+## 📸 Demo
+
+> **Note**: When you run the app, you'll see:
+> - A large blue counter number that scales up when changed
+> - Three circular buttons with intuitive colors
+> - Smooth 300ms animation on every count change
+> - Clean, modern UI with shadows and proper spacing
+
 ## Assignment Requirements Met
 
 ✅ Display a numeric counter  
@@ -82,17 +94,31 @@ Then choose your platform:
 ✅ Uses React Native Animated API  
 ✅ Clean folder structure with components and screens  
 ✅ Ready to run with `npx expo start`
-   
-## Assignment Details
+
+## 📚 Assignment Details
 
 **Assignment C**: Display a numeric counter with increment/decrement buttons. Animate the number (scale or fade) when it changes using React Native Animated or LayoutAnimation.
 
 **Submission Format**: `rn-assignment-AdityaSingh10148`
 
-## Author
+## 👨‍💻 Author
 
-Aditya Singh
+**Aditya Singh**
+- GitHub: [@adityasingh-ops](https://github.com/adityasingh-ops)
+- Repository: [rn-assignment-AdityaSingh10148](https://github.com/adityasingh-ops/rn-assignment-AdityaSingh10148)
 
-## License
+## 🎓 Course Information
+
+This assignment is part of a React Native development course focused on:
+- Component-based architecture
+- React hooks (useState, useEffect, useRef)
+- Animation techniques with React Native Animated API
+- Mobile app development best practices
+
+## 📝 License
 
 This project is created for educational purposes as part of a React Native class assignment.
+
+---
+
+**Note**: This is a class assignment project. Feel free to fork and modify for learning purposes! 🚀
